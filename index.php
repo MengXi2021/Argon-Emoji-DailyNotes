@@ -72,4 +72,5 @@ function add_dashboard_submenu() {
   echo '<div><p><h2><strong>Argon Emoji-DailyNotes</strong></h2></p></div>';
   echo '<div><p><h3><strong>适用于Argon Theme In WordPress的《每日手帐》吉祥物同人表情包插件</strong></h3></p></div>';
   echo '<div><p><a href="https://mengxiblog.top">作者博客</a>&nbsp;&nbsp;</a></p></div>';
+}
 ?>
