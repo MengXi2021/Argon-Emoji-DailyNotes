@@ -4,7 +4,7 @@
  * Text Domain: ArgonEmojiDailyNotes
  * Domain Path: /languages
  * Description: Argon 主题的《每日手帐》同人吉祥物表情包
- * Version:     1.00
+ * Version:     1.0.0-P
  * Author:      MengXiCenter
  * Author URI:  https://mengxiblog.top/
  * License:     Apache2
