@@ -4,22 +4,20 @@
  * Text Domain: ArgonEmojiDailyNotes
  * Domain Path: /languages
  * Description: Argon 主题的《每日手帐》同人吉祥物表情包
- * Version:     1.0.0-P
+ * Version:     1.0.0-F
  * Author:      MengXiCenter
  * Author URI:  https://mengxiblog.top/
  * License:     Apache2
  */
 
     function add_more_emotions($emotionList){
-		$assets_dir = plugins_url( 'assets/', __FILE__ );
+			$assets_dir = plugins_url( 'assets/', __FILE__ );
         array_push(
             $emotionList,
             array(
-                //Setup Name and info
                 'groupname' => '每日手帐', 
-				'description' => 'Github：https://github.com/MengXi2021/Argon-Emoji-DailyNotes', 
+								'description' => 'Github：https://github.com/MengXi2021/Argon-Emoji-DailyNotes', 
                 'list' => array(
-                    //Setup Files dir
 					array('type' => 'sticker', 'code' => 'ChenSi', 'src' => $assets_dir . 'ChenSi.png'),
 					array('type' => 'sticker', 'code' => 'DaiKouZhao', 'src' => $assets_dir . 'DaiKouZhao.png'),
 					array('type' => 'sticker', 'code' => 'DaKu', 'src' => $assets_dir . 'DaKu.png'),
